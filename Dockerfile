@@ -1,5 +1,6 @@
 FROM babim/centosbase:7-x86
 ENV SOFT	NetworkConfigurationManager
+ENV EDITTION	essential
 ENV SOFT_HOME	/opt/ManageEngine/${SOFT}
 ENV FIXED	true
 
