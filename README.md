@@ -7,5 +7,5 @@ docker run --detach --publish 8060:8060 babim/ncm:latest
 ```
 ```
 volume:
-/opt/ManageEngine/NetworkConfigurationManager
+/opt/ManageEngine/OpManager
 ```
