@@ -1,7 +1,7 @@
 FROM babim/centosbase:7-x86
 ENV SOFT	NetworkConfigurationManager
 ENV EDITTION	essential
-ENV SOFT_HOME	/opt/ManageEngine/${SOFT}
+ENV SOFT_HOME	/opt/ManageEngine/OpManager
 ENV FIXED	true
 
 # install depend
