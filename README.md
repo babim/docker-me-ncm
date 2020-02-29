@@ -6,5 +6,8 @@ docker run --detach --publish 8060:8060 babim/ncm:latest
 ```
 ```
 volume:
-/opt/ManageEngine/OpManager
+/opt/ManageEngine
 ```
+
+run manual with CMD /usr/sbin/init and download, install apps
+change to CMD default after install apps
