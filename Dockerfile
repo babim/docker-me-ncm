@@ -3,6 +3,7 @@ ENV SOFT	NetworkConfigurationManager
 ENV EDITTION	essential
 ENV SOFT_HOME	/opt/ManageEngine/OpManager
 ENV FIXED	true
+ENV MANUAL	true
 
 # download option
 RUN yum install curl -y && \
@@ -19,4 +20,5 @@ VOLUME ["${SOFT_HOME}"]
 # Expose default HTTP connector port.
 EXPOSE 8060
 
+CMD ["/usr/sbin/init"]
 ENTRYPOINT ["/docker-entrypoint.sh"]
